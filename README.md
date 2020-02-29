@@ -2,11 +2,11 @@
 Create automatic daily backups of your Odoo databases
 
 ## Table of contents
-  - 
-# 2. Make thi backup.sh executable with chmod:
+  - [Cron][#cron]
+## Make thi backup.sh executable with chmod:
 ``sudo chmod +x ~/backup.sh``
 
-# 3. Cron
+## Cron
 ``crontab -e``
 
 #### Happy coding 🎉!
