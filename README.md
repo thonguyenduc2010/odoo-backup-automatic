@@ -12,6 +12,7 @@ Create automatic daily backups of your Odoo databases
 
 ## Cron
 ``crontab -e``
+``sudo service cron start``
 
 Create a new cron job which will run each day at 01:30 am
 ``30 1 * * * /home/<yourusername>/backup.sh``
