@@ -19,4 +19,7 @@ Create a new cron job which will run each day at 01:30 am
 
 ``30 1 * * * /home/<yourusername>/backup.sh``
 
+Every 4 hour
+``0 */4 * * * /home/backup.sh``
+
 #### Happy coding 🎉!
